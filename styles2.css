@@ -79,90 +79,79 @@ a:active{
     color: black;
 }
 .carousel-inner img{
-    width: 65%;
-    max-height: 460px;
+    width: 1050px;
+    max-height: 430px;
 }
 .carousel-inner{
-    height: 400px;
-    margin:15px;
+    height: 500px;
+    margin-right:60px;
+    margin-top: 25px;
+    width: 70%;
+    border-radius: 10px;
 }
+#COPAS{
+    float:right
+}
+.list-group{
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 25px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 18px;
+    float:left
+}
+
 
 @media(max-width: 900px){
     .contenedorLogo{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        border-style: solid;
-        border-radius: 5px;
-        background-color: rgb(226, 26, 26);
         margin: 0%;
         width: 50%;
-        padding: 2px;
-        box-sizing: border-box;
         }
     .uno{
         font-size: 40px;
-        font-family: Homer system-ui;
-        color: white;
         }
     .logo{
-        border-radius: 10px;
-        vertical-align: middle;
         width: 0%;
-        overflow: hidden;
         }
     .parrafo{
-            display: grid;
-            justify-items: center;
-            background-color: rgb(244, 197, 197);
-            text-align: center;
-            font-style: italic;
             width: 300px;
             height: 150px;
-            margin:auto;
-            padding: 2%;
-            font-size: large;
-            border-radius: 10px;
             font-size: 40px;
-            font-weight: bolder;
-            margin-top: 35px;
             width: 100%;
-    }
+        }
     .contenedorIzquierdo{
-        display: flex;
-        flex-wrap: nowrap;
-        position: absolute;
         top:0;
         right: 0;
-        margin-right: 50px;
         }
     .parrafo:hover{
         transform: translate(0px);
         }
-}
+    .carousel-inner img{
+            width: 100%;
+            max-height: 460px;
+        }
+    .carousel-inner {
+            height: 100%;
+            width: 100%;
+         }
+    .list-group{ 
+            margin: 0%;
+            align-items: center;
+            width: 300px;
+        }
+        }
 @media(max-width:700px){
     .contenedorLogo{
         display:contents;
-        justify-content: center;
-        align-items: center;
-        border-style: solid;
-        border-radius: 5px;
-        background-color: rgb(226, 26, 26);
         margin: 0%;
         width: 0%;
-        padding: 2px;
-        box-sizing: border-box;
         }
     .uno{
         font-size: 0px;
-        font-family: Homer system-ui;
-        color: white;
         }
     .logo{
-        border-radius: 10px;
-        vertical-align: middle;
         width: 15%;
-        overflow: hidden;
         border-style: solid;
         }
     .logo:hover{
@@ -171,4 +160,4 @@ a:active{
     .parrafo{
         height: 200px;
      }
- }
+}
