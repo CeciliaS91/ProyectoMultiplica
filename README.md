@@ -1,14 +1,18 @@
 # ProyectoMultiplica
 Modelo de pagina para independiente.
-  **Idiomas de programación utlizados:**
+<p> **Idiomas de programación utlizados:**
+</p>
 - css
 - javascript
 - html
-  **Frameworks utilizados:**
+<p> **Frameworks utilizados:**
+</p>
 -bootstrap
-  **Objetivos**
+<p> **Objetivos**
+</p>
 "Crear una pagina que contenga la información principal del club a desarrollar a través de estos idiomas de programación"
-  **Datos generales de la pagina:**
+<p> **Datos generales de la pagina:**
+</p>
 -No requiere ingresar a la página
 -No requiere comandos del teclado
 -Botones que permiten un mejor manejo visualización de la página
